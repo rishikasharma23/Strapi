@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_header_nav_product_lists",
+  "info": {
+    "displayName": "HeaderNavProductList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HeaderNavProductListTitle": {
+      "type": "string"
+    },
+    "HeaderNavProductListURL": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_blocks_heading_descriptions",
+  "info": {
+    "displayName": "HeadingDescription",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HeadingDescription": {
+      "type": "richtext"
+    }
+  }
+}

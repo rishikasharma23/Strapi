@@ -1,0 +1,77 @@
+{
+  "key": "plugin_content_manager_configuration_components::iterable.footerblock",
+  "value": {
+    "uid": "iterable.footerblock",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "FooterTitle",
+      "defaultSortBy": "FooterTitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "FooterListItem": {
+        "edit": {
+          "label": "FooterListItem",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "FooterListItem",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "FooterTitle": {
+        "edit": {
+          "label": "FooterTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "FooterTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "FooterTitle"
+      ],
+      "edit": [
+        [
+          {
+            "name": "FooterListItem",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "FooterTitle",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

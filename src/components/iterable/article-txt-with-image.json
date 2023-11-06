@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_iterable_article_txt_with_images",
+  "info": {
+    "displayName": "ArticleTxtWithImage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "AnchorTagURL": {
+      "type": "richtext"
+    }
+  }
+}

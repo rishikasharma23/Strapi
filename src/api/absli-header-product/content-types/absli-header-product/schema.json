@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "absli_header_products",
+  "info": {
+    "singularName": "absli-header-product",
+    "pluralName": "absli-header-products",
+    "displayName": "ABSLIHeaderProduct",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ABSLIHeaderProductBlock": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.header-nav-product-list"
+      ]
+    },
+    "ABSLIHeaderProductTitle": {
+      "type": "string"
+    }
+  }
+}

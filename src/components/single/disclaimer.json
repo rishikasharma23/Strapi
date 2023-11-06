@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_single_disclaimers",
+  "info": {
+    "displayName": "Disclaimer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "IconsList": {
+      "type": "component",
+      "repeatable": false,
+      "component": "single.icons-list"
+    }
+  }
+}

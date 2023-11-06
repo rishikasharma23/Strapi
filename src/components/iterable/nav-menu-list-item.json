@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_iterable_nav_menu_list_items",
+  "info": {
+    "displayName": "NavMenuList",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MenuListItems": {
+      "type": "richtext"
+    },
+    "MenuListTitle": {
+      "type": "string"
+    }
+  }
+}

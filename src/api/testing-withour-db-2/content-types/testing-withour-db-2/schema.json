@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testing_withour_db_2s",
+  "info": {
+    "singularName": "testing-withour-db-2",
+    "pluralName": "testing-withour-db-2s",
+    "displayName": "Testing-WithourDB-2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "DummyTitle": {
+      "type": "string"
+    }
+  }
+}

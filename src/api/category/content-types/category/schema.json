@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "singularName": "category",
+    "pluralName": "categories",
+    "displayName": "Categories",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::revamp-article-page.revamp-article-page",
+      "mappedBy": "category"
+    },
+    "sidebar": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::sidebar.sidebar",
+      "inversedBy": "categories"
+    },
+    "categoryheading": {
+      "type": "string"
+    }
+  }
+}

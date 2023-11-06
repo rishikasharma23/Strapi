@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abcl_header_nav_lists",
+  "info": {
+    "singularName": "abcl-header-nav-list",
+    "pluralName": "abcl-header-nav-lists",
+    "displayName": "ABCLHeaderNavList",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ABCLHeaderBlock": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.header-nav-list"
+      ]
+    },
+    "HeaderNavListTitle": {
+      "type": "string"
+    }
+  }
+}

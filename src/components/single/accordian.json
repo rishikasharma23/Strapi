@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_single_accordians",
+  "info": {
+    "displayName": "Accordian",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "AccordianTopImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "AccordianTitle": {
+      "type": "string"
+    },
+    "AccordianIconList": {
+      "type": "component",
+      "repeatable": false,
+      "component": "single.icons-list"
+    },
+    "IconBulletImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ListItems": {
+      "type": "richtext"
+    }
+  }
+}

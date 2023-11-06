@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_iterable_abcl_mobile_footer_links",
+  "info": {
+    "displayName": "ABCLMobileFooterLinks",
+    "icon": "briefcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ABCLFooterLinkTitle": {
+      "type": "string"
+    },
+    "ABCLFooterLinkList": {
+      "type": "richtext"
+    },
+    "ABCLFooterLinkURL": {
+      "type": "string"
+    }
+  }
+}

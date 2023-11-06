@@ -1,0 +1,158 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.product-plan-component",
+  "value": {
+    "uid": "blocks.product-plan-component",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ProductHeading": {
+        "edit": {
+          "label": "ProductHeading",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ProductHeading",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ArticleFeatureWithImg": {
+        "edit": {
+          "label": "ArticleFeatureWithImg",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ArticleFeatureWithImg",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "LifeCoverTxt": {
+        "edit": {
+          "label": "LifeCoverTxt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "LifeCoverTxt",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "PremiumTxt": {
+        "edit": {
+          "label": "PremiumTxt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "PremiumTxt",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "AnchorTagURL": {
+        "edit": {
+          "label": "AnchorTagURL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "AnchorTagURL",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ActionButton": {
+        "edit": {
+          "label": "ActionButton",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ActionButton",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "ArticleFeatureWithImg",
+        "ActionButton"
+      ],
+      "edit": [
+        [
+          {
+            "name": "ProductHeading",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "ArticleFeatureWithImg",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "LifeCoverTxt",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "PremiumTxt",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "AnchorTagURL",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "ActionButton",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

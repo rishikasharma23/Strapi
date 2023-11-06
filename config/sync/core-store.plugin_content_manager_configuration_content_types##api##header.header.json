@@ -1,0 +1,264 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::header.header",
+  "value": {
+    "uid": "api::header.header",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ABCLLogoDesktop": {
+        "edit": {
+          "label": "ABCLLogoDesktop",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ABCLLogoDesktop",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ABCLLogoMobile": {
+        "edit": {
+          "label": "ABCLLogoMobile",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ABCLLogoMobile",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ABCLLogoTablet": {
+        "edit": {
+          "label": "ABCLLogoTablet",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ABCLLogoTablet",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ABSLIHeaderMenu": {
+        "edit": {
+          "label": "ABSLIHeaderMenu",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ABSLIHeaderMenu",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ABSLIOrganizationName": {
+        "edit": {
+          "label": "ABSLIOrganizationName",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ABSLIOrganizationName",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ABCLLogoSmallScreen": {
+        "edit": {
+          "label": "ABCLLogoSmallScreen",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ABCLLogoSmallScreen",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "HeaderLogoURL": {
+        "edit": {
+          "label": "HeaderLogoURL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "HeaderLogoURL",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ABCLMobileFooterLinks": {
+        "edit": {
+          "label": "ABCLMobileFooterLinks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ABCLMobileFooterLinks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "MobileTopNavigation": {
+        "edit": {
+          "label": "MobileTopNavigation",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "MobileTopNavigation",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "OtherMenuItem": {
+        "edit": {
+          "label": "OtherMenuItem",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "OtherMenuItem",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "ABCLLogoDesktop"
+      ],
+      "edit": [
+        [
+          {
+            "name": "ABCLLogoTablet",
+            "size": 6
+          },
+          {
+            "name": "ABCLLogoDesktop",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "ABCLLogoMobile",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "ABCLLogoSmallScreen",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "ABSLIHeaderMenu",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "ABSLIOrganizationName",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "HeaderLogoURL",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "ABCLMobileFooterLinks",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "MobileTopNavigation",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "OtherMenuItem",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

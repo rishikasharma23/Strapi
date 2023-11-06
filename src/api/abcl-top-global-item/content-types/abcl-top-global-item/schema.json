@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abcl_top_global_items",
+  "info": {
+    "singularName": "abcl-top-global-item",
+    "pluralName": "abcl-top-global-items",
+    "displayName": "ABCLTopGlobalItems",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TopGlobalItem": {
+      "type": "string"
+    },
+    "TopGlobalURL": {
+      "type": "string"
+    }
+  }
+}

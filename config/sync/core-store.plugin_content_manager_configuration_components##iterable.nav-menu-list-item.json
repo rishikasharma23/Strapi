@@ -1,0 +1,77 @@
+{
+  "key": "plugin_content_manager_configuration_components::iterable.nav-menu-list-item",
+  "value": {
+    "uid": "iterable.nav-menu-list-item",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "MenuListTitle",
+      "defaultSortBy": "MenuListTitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "MenuListItems": {
+        "edit": {
+          "label": "MenuListItems",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "MenuListItems",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "MenuListTitle": {
+        "edit": {
+          "label": "MenuListTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "MenuListTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "MenuListTitle"
+      ],
+      "edit": [
+        [
+          {
+            "name": "MenuListItems",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "MenuListTitle",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

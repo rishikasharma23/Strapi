@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_single_term_plans_comps",
+  "info": {
+    "displayName": "TermPlansComp"
+  },
+  "options": {},
+  "attributes": {
+    "TermPlanTitleDescription": {
+      "type": "component",
+      "repeatable": true,
+      "component": "iterable.title-description"
+    },
+    "TermPlanIterableComp": {
+      "type": "component",
+      "repeatable": true,
+      "component": "iterable.article-feature"
+    }
+  }
+}

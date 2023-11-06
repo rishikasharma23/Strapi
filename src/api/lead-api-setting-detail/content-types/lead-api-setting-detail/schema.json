@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lead_api_setting_details",
+  "info": {
+    "singularName": "lead-api-setting-detail",
+    "pluralName": "lead-api-setting-details",
+    "displayName": "LeadAPISettingDetails",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Source": {
+      "type": "richtext"
+    },
+    "ProductName": {
+      "type": "richtext"
+    },
+    "SubSource": {
+      "type": "richtext"
+    },
+    "forms": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::form.form",
+      "mappedBy": "lead_api_setting_detail"
+    }
+  }
+}

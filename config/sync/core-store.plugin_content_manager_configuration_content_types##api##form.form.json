@@ -1,0 +1,264 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::form.form",
+  "value": {
+    "uid": "api::form.form",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "FormsTitle",
+      "defaultSortBy": "FormsTitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "FormsTitle": {
+        "edit": {
+          "label": "FormsTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "FormsTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "sidebars": {
+        "edit": {
+          "label": "sidebars",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "id"
+        },
+        "list": {
+          "label": "sidebars",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "TNCText": {
+        "edit": {
+          "label": "TNCText",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "TNCText",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "BtnText": {
+        "edit": {
+          "label": "BtnText",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "BtnText",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ThanksTxt": {
+        "edit": {
+          "label": "ThanksTxt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ThanksTxt",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "InputField": {
+        "edit": {
+          "label": "InputField",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "InputField",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ErrorTxt": {
+        "edit": {
+          "label": "ErrorTxt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ErrorTxt",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "lead_api_setting_detail": {
+        "edit": {
+          "label": "lead_api_setting_detail",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "id"
+        },
+        "list": {
+          "label": "lead_api_setting_detail",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "PhoneIcon": {
+        "edit": {
+          "label": "PhoneIcon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "PhoneIcon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "FormsTitle",
+        "createdAt",
+        "updatedAt"
+      ],
+      "edit": [
+        [
+          {
+            "name": "FormsTitle",
+            "size": 6
+          },
+          {
+            "name": "sidebars",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "TNCText",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "BtnText",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "ThanksTxt",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "InputField",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "ErrorTxt",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "lead_api_setting_detail",
+            "size": 6
+          },
+          {
+            "name": "PhoneIcon",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

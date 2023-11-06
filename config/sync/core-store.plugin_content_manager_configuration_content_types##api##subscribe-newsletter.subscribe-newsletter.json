@@ -1,0 +1,184 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::subscribe-newsletter.subscribe-newsletter",
+  "value": {
+    "uid": "api::subscribe-newsletter.subscribe-newsletter",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "HeadingDescription": {
+        "edit": {
+          "label": "HeadingDescription",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "HeadingDescription",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ThankYouDescriptionTxt": {
+        "edit": {
+          "label": "ThankYouDescriptionTxt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ThankYouDescriptionTxt",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "InputFieldTxt": {
+        "edit": {
+          "label": "InputFieldTxt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "InputFieldTxt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "BtnFieldTxt": {
+        "edit": {
+          "label": "BtnFieldTxt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "BtnFieldTxt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ErrorFieldTxt": {
+        "edit": {
+          "label": "ErrorFieldTxt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ErrorFieldTxt",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "SubscribeNewsletterBtn": {
+        "edit": {
+          "label": "SubscribeNewsletterBtn",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "SubscribeNewsletterBtn",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "InputFieldTxt"
+      ],
+      "edit": [
+        [
+          {
+            "name": "HeadingDescription",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "ThankYouDescriptionTxt",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "InputFieldTxt",
+            "size": 6
+          },
+          {
+            "name": "BtnFieldTxt",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "ErrorFieldTxt",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "SubscribeNewsletterBtn",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

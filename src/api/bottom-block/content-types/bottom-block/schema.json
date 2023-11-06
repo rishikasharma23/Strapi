@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bottom_blocks",
+  "info": {
+    "singularName": "bottom-block",
+    "pluralName": "bottom-blocks",
+    "displayName": "BottomBlocks",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BottomBlockDisclaimer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "single.disclaimer"
+    },
+    "DisqusCommentSection": {
+      "type": "richtext"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::revamp-article-page.revamp-article-page",
+      "mappedBy": "bottom_block"
+    },
+    "BottomBlockTitle": {
+      "type": "string"
+    }
+  }
+}

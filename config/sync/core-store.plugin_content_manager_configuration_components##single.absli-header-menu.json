@@ -1,0 +1,57 @@
+{
+  "key": "plugin_content_manager_configuration_components::single.absli-header-menu",
+  "value": {
+    "uid": "single.absli-header-menu",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "ABSLITitle",
+      "defaultSortBy": "ABSLITitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ABSLITitle": {
+        "edit": {
+          "label": "ABSLITitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ABSLITitle",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "ABSLITitle"
+      ],
+      "edit": [
+        [
+          {
+            "name": "ABSLITitle",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

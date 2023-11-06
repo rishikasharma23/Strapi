@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testing_config_sync_checks",
+  "info": {
+    "singularName": "testing-config-sync-check",
+    "pluralName": "testing-config-sync-checks",
+    "displayName": "Testing-Config-Sync-Check"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NEWTITLE": {
+      "type": "string"
+    },
+    "TestingConfigBtn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "iterable.action-button"
+    }
+  }
+}

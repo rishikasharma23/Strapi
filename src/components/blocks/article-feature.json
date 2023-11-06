@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_single_article_features",
+  "info": {
+    "displayName": "ArticleFeatures",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HeadingDescription": {
+      "type": "richtext"
+    },
+    "ArticleFeatureWithImgDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "iterable.article-feature"
+    }
+  }
+}

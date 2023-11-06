@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_header_nav_category_lists",
+  "info": {
+    "displayName": "HeaderNavCategoryList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HeaderNavCategoryListTitle": {
+      "type": "string"
+    },
+    "HeaderNavCategoryListURL": {
+      "type": "string"
+    },
+    "absli_header_product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::absli-header-product.absli-header-product"
+    }
+  }
+}

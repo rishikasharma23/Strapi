@@ -1,0 +1,193 @@
+{
+  "key": "plugin_content_manager_configuration_components::single.seo-details",
+  "value": {
+    "uid": "single.seo-details",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "SEOTitle",
+      "defaultSortBy": "SEOTitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "SEOTitle": {
+        "edit": {
+          "label": "SEOTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "SEOTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "SEODescription": {
+        "edit": {
+          "label": "SEODescription",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "SEODescription",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "OrganisationalSiteName": {
+        "edit": {
+          "label": "OrganisationalSiteName",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "OrganisationalSiteName",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "OrganisationType": {
+        "edit": {
+          "label": "OrganisationType",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "OrganisationType",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "FacebookDomainVerification": {
+        "edit": {
+          "label": "FacebookDomainVerification",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "FacebookDomainVerification",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "GoogleSiteVerification": {
+        "edit": {
+          "label": "GoogleSiteVerification",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "GoogleSiteVerification",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "FormatDetection": {
+        "edit": {
+          "label": "FormatDetection",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "FormatDetection",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "CanonicalURL": {
+        "edit": {
+          "label": "CanonicalURL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "CanonicalURL",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "SEOTitle",
+        "OrganisationalSiteName",
+        "OrganisationType"
+      ],
+      "edit": [
+        [
+          {
+            "name": "SEOTitle",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "SEODescription",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "OrganisationalSiteName",
+            "size": 6
+          },
+          {
+            "name": "OrganisationType",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "FacebookDomainVerification",
+            "size": 6
+          },
+          {
+            "name": "GoogleSiteVerification",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "FormatDetection",
+            "size": 6
+          },
+          {
+            "name": "CanonicalURL",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

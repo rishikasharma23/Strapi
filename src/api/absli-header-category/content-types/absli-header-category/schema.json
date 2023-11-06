@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "absli_header_categories",
+  "info": {
+    "singularName": "absli-header-category",
+    "pluralName": "absli-header-categories",
+    "displayName": "ABSLIHeaderCategory",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ABSLIHeaderCategoryBlock": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.header-nav-category-list"
+      ]
+    },
+    "ABSLIPrimaryNavTitle": {
+      "type": "string"
+    }
+  }
+}

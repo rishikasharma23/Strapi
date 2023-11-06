@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_single_right_locus_elements",
+  "info": {
+    "displayName": "RightLocusElement",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "form": {
+      "type": "enumeration",
+      "enum": [
+        "LeadForm"
+      ]
+    }
+  }
+}

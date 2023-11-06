@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "read_alouds",
+  "info": {
+    "singularName": "read-aloud",
+    "pluralName": "read-alouds",
+    "displayName": "ReadAloud",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "single.icons-list"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::revamp-article-page.revamp-article-page",
+      "mappedBy": "read_aloud"
+    }
+  }
+}

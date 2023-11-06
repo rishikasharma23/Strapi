@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_single_article_scripts",
+  "info": {
+    "displayName": "ArticleScript"
+  },
+  "options": {},
+  "attributes": {
+    "HeadScript": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_footer_blocks",
+  "info": {
+    "displayName": "FooterBlock",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "GroupPlansList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "iterable.footer-list-item"
+    },
+    "FooterBlockURL": {
+      "type": "richtext"
+    },
+    "FooterBlockTitle": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::footer-nav-list-item.footer-nav-list-item",
+  "value": {
+    "uid": "api::footer-nav-list-item.footer-nav-list-item",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "NavCategoryTitle",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "FooterNavListItem": {
+        "edit": {
+          "label": "FooterNavListItem",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "FooterNavListItem",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "NavCategoryTitle": {
+        "edit": {
+          "label": "NavCategoryTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "NavCategoryTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "FooterNavListItem",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "NavCategoryTitle",
+            "size": 6
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "NavCategoryTitle"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

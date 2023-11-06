@@ -1,0 +1,146 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::sidebar.sidebar",
+  "value": {
+    "uid": "api::sidebar.sidebar",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "sidebarTitle",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "form": {
+        "edit": {
+          "label": "form",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "FormsTitle"
+        },
+        "list": {
+          "label": "form",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "rightBlocks": {
+        "edit": {
+          "label": "rightBlocks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "rightBlocks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "categories": {
+        "edit": {
+          "label": "categories",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "id"
+        },
+        "list": {
+          "label": "categories",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "sidebarTitle": {
+        "edit": {
+          "label": "sidebarTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "sidebarTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "categories"
+      ],
+      "edit": [
+        [
+          {
+            "name": "form",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "rightBlocks",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "categories",
+            "size": 6
+          },
+          {
+            "name": "sidebarTitle",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

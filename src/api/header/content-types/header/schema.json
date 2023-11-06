@@ -1,0 +1,87 @@
+{
+  "kind": "singleType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "Header",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ABCLLogoDesktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ABCLLogoMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ABCLLogoTablet": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ABSLIHeaderMenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "single.absli-header-menu"
+    },
+    "ABSLIOrganizationName": {
+      "type": "string"
+    },
+    "ABCLLogoSmallScreen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "HeaderLogoURL": {
+      "type": "string"
+    },
+    "ABCLMobileFooterLinks": {
+      "displayName": "ABCLMobileFooterLinks",
+      "type": "component",
+      "repeatable": true,
+      "component": "iterable.abcl-mobile-footer-links"
+    },
+    "MobileTopNavigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "iterable.title-description"
+    },
+    "OtherMenuItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "iterable.title-description"
+    }
+  }
+}

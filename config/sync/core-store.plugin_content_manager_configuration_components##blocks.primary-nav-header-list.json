@@ -1,0 +1,76 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.primary-nav-header-list",
+  "value": {
+    "uid": "blocks.primary-nav-header-list",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "PrimaryNavHeaderTitle",
+      "defaultSortBy": "PrimaryNavHeaderTitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "PrimaryNavHeaderTitle": {
+        "edit": {
+          "label": "PrimaryNavHeaderTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "PrimaryNavHeaderTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "PrimaryNavHeaderURL": {
+        "edit": {
+          "label": "PrimaryNavHeaderURL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "PrimaryNavHeaderURL",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "PrimaryNavHeaderTitle",
+        "PrimaryNavHeaderURL"
+      ],
+      "edit": [
+        [
+          {
+            "name": "PrimaryNavHeaderTitle",
+            "size": 6
+          },
+          {
+            "name": "PrimaryNavHeaderURL",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

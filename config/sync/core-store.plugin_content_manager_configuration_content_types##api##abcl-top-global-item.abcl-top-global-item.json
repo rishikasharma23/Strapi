@@ -1,0 +1,104 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::abcl-top-global-item.abcl-top-global-item",
+  "value": {
+    "uid": "api::abcl-top-global-item.abcl-top-global-item",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "TopGlobalItem",
+      "defaultSortBy": "TopGlobalItem",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "TopGlobalItem": {
+        "edit": {
+          "label": "TopGlobalItem",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "TopGlobalItem",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "TopGlobalURL": {
+        "edit": {
+          "label": "TopGlobalURL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "TopGlobalURL",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "TopGlobalItem"
+      ],
+      "edit": [
+        [
+          {
+            "name": "TopGlobalItem",
+            "size": 6
+          },
+          {
+            "name": "TopGlobalURL",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

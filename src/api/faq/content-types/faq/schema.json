@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "FAQ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FAQHeading": {
+      "type": "string"
+    },
+    "FAQTitleDescription": {
+      "type": "dynamiczone",
+      "components": [
+        "iterable.title-description"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Authenticated",
+  "description": "Default role given to authenticated user.",
+  "type": "authenticated",
+  "permissions": [
+    {
+      "action": "api::revamp-article-page.revamp-article-page.create"
+    },
+    {
+      "action": "api::revamp-article-page.revamp-article-page.update"
+    },
+    {
+      "action": "plugin::users-permissions.auth.changePassword"
+    },
+    {
+      "action": "plugin::users-permissions.user.create"
+    },
+    {
+      "action": "plugin::users-permissions.user.me"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testing3s",
+  "info": {
+    "singularName": "testing3",
+    "pluralName": "testing3s",
+    "displayName": "Testing3"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Testing3Title": {
+      "type": "string"
+    }
+  }
+}

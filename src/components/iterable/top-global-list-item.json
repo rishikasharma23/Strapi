@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_iterable_top_global_list_items",
+  "info": {
+    "displayName": "TopGlobalListItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TopMenuListItem": {
+      "type": "string"
+    },
+    "TopMenuListURL": {
+      "type": "string"
+    },
+    "TopMenuListID": {
+      "type": "string"
+    }
+  }
+}

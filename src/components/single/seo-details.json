@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_single_seo_details",
+  "info": {
+    "displayName": "SEODetails",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SEOTitle": {
+      "type": "string"
+    },
+    "SEODescription": {
+      "type": "richtext"
+    },
+    "OrganisationalSiteName": {
+      "type": "string"
+    },
+    "OrganisationType": {
+      "type": "string"
+    },
+    "FacebookDomainVerification": {
+      "type": "string"
+    },
+    "GoogleSiteVerification": {
+      "type": "string"
+    },
+    "FormatDetection": {
+      "type": "string"
+    },
+    "CanonicalURL": {
+      "type": "string"
+    },
+    "RobotsInfo": {
+      "type": "string"
+    }
+  }
+}

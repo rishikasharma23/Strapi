@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_iterable_article_features",
+  "info": {
+    "displayName": "ArticleFeatureWithImg",
+    "icon": "quote",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "maxLength": 100,
+      "minLength": 3,
+      "default": "Article Title"
+    },
+    "Description": {
+      "type": "richtext",
+      "default": "Article Description"
+    },
+    "FeatureImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

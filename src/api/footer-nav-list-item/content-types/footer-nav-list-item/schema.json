@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_nav_list_items",
+  "info": {
+    "singularName": "footer-nav-list-item",
+    "pluralName": "footer-nav-list-items",
+    "displayName": "FooterNavListCategory",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FooterNavListItem": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.footer-nav-list-items"
+      ]
+    },
+    "NavCategoryTitle": {
+      "type": "string"
+    }
+  }
+}

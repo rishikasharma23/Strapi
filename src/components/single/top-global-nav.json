@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_single_top_global_navs",
+  "info": {
+    "displayName": "TopGlobalNav",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TopGlobalListItem": {
+      "displayName": "TopGlobalListItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "iterable.top-global-list-item"
+    }
+  }
+}

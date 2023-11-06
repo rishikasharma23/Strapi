@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abcl_top_global_solution_lists",
+  "info": {
+    "singularName": "abcl-top-global-solution-list",
+    "pluralName": "abcl-top-global-solution-lists",
+    "displayName": "ABCLTopGlobalSolutionList",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TopGlobalSolutionList": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.top-global-solution-list-block"
+      ]
+    },
+    "abcl_top_global_item": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::abcl-top-global-item.abcl-top-global-item"
+    }
+  }
+}

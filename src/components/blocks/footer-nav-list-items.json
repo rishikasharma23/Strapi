@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_footer_nav_list_items",
+  "info": {
+    "displayName": "FooterNavListItems",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FooterNavListTitle": {
+      "type": "string"
+    },
+    "FooterNavListURL": {
+      "type": "string"
+    }
+  }
+}

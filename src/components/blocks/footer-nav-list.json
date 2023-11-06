@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_footer_nav_lists",
+  "info": {
+    "displayName": "FooterNavList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FooterNavListColNo": {
+      "type": "string"
+    },
+    "FooterNavListTitle": {
+      "type": "string"
+    },
+    "FooterNavTitleURL": {
+      "type": "string"
+    },
+    "footer_nav_list_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::footer-nav-list-item.footer-nav-list-item"
+    }
+  }
+}

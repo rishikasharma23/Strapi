@@ -1,0 +1,307 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::footer.footer",
+  "value": {
+    "uid": "api::footer.footer",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "registeredOfficeDetails": {
+        "edit": {
+          "label": "registeredOfficeDetails",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "registeredOfficeDetails",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "awareBlockTxt": {
+        "edit": {
+          "label": "awareBlockTxt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "awareBlockTxt",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "FirstFooterContainerLinks": {
+        "edit": {
+          "label": "FirstFooterContainerLinks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "FirstFooterContainerLinks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "SecondFooterContainerLinks": {
+        "edit": {
+          "label": "SecondFooterContainerLinks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "SecondFooterContainerLinks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ThirdFooterContainerLinks": {
+        "edit": {
+          "label": "ThirdFooterContainerLinks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ThirdFooterContainerLinks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "FourthFooterContainerLinks": {
+        "edit": {
+          "label": "FourthFooterContainerLinks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "FourthFooterContainerLinks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ContactNumber": {
+        "edit": {
+          "label": "ContactNumber",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ContactNumber",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "CopyrightTxt": {
+        "edit": {
+          "label": "CopyrightTxt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "CopyrightTxt",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "TollFreeTxt": {
+        "edit": {
+          "label": "TollFreeTxt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "TollFreeTxt",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ContactURL": {
+        "edit": {
+          "label": "ContactURL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ContactURL",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "footer_nav_sections": {
+        "edit": {
+          "label": "footer_nav_sections",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "FooterNavSectionsTitle"
+        },
+        "list": {
+          "label": "footer_nav_sections",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "FooterSocialMediaIconsList": {
+        "edit": {
+          "label": "FooterSocialMediaIconsList",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "FooterSocialMediaIconsList",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "footer_nav_sections"
+      ],
+      "edit": [
+        [
+          {
+            "name": "registeredOfficeDetails",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "awareBlockTxt",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "FirstFooterContainerLinks",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "SecondFooterContainerLinks",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "ThirdFooterContainerLinks",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "FourthFooterContainerLinks",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "ContactNumber",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "CopyrightTxt",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "TollFreeTxt",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "ContactURL",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "footer_nav_sections",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "FooterSocialMediaIconsList",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

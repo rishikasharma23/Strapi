@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testing_config_sync_with_db_2s",
+  "info": {
+    "singularName": "testing-config-sync-with-db-2",
+    "pluralName": "testing-config-sync-with-db-2s",
+    "displayName": "Testing-Config-Sync-WithDB2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TestingWithDB2Title": {
+      "type": "string"
+    }
+  }
+}

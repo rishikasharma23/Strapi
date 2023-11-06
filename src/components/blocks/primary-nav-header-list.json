@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_primary_nav_header_lists",
+  "info": {
+    "displayName": "PrimaryNavHeaderList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "PrimaryNavHeaderTitle": {
+      "type": "string"
+    },
+    "PrimaryNavHeaderURL": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_share_blocks",
+  "info": {
+    "displayName": "ShareBlock"
+  },
+  "options": {},
+  "attributes": {
+    "ShareDropdownTxt": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "IconsList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single.icons-list"
+    },
+    "ShareIconsDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "iterable.share-icons-details"
+    }
+  }
+}

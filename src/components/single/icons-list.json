@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_single_icons_lists",
+  "info": {
+    "displayName": "IconsList",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "IconsListDetails": {
+      "type": "enumeration",
+      "enum": [
+        "icon-arrow",
+        "icon-phone",
+        "icon-home",
+        "icon-login",
+        "icon-seach",
+        "icon-cancel",
+        "icon-btn",
+        "icon-left-arrow",
+        "icon-facebook",
+        "icon-linkedIn-o",
+        "icon-twitter",
+        "icon-decrement",
+        "icon-tick",
+        "icon-instagram",
+        "icon-linkedIn",
+        "icon-youtube",
+        "icon-SoundOn"
+      ]
+    },
+    "IconTitle": {
+      "type": "richtext"
+    }
+  }
+}

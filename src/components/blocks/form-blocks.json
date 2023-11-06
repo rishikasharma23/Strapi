@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_blocks_form_blocks",
+  "info": {
+    "displayName": "formBlocks"
+  },
+  "options": {},
+  "attributes": {
+    "NameInputField": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_blocks_article_accordians",
+  "info": {
+    "displayName": "ArticleAccordian",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "AccordianTitle": {
+      "type": "string"
+    },
+    "AccordianTopImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "AccordianIconList": {
+      "type": "component",
+      "repeatable": false,
+      "component": "single.icons-list"
+    },
+    "IconBulletImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

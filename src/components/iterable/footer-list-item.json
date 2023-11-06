@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_iterable_footer_list_items",
+  "info": {
+    "displayName": "FooterListItem",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FooterListItem": {
+      "type": "richtext"
+    },
+    "FooterListURL": {
+      "type": "richtext"
+    }
+  }
+}

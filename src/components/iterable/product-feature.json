@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_iterable_product_features",
+  "info": {
+    "displayName": "ProductFeature",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "shield",
+        "test"
+      ]
+    }
+  }
+}

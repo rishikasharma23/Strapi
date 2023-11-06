@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_name_blocks",
+  "info": {
+    "displayName": "nameBlocks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "richtext"
+    },
+    "NameErrorTxt": {
+      "type": "richtext"
+    }
+  }
+}

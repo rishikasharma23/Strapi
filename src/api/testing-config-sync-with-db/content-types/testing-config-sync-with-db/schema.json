@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testing_config_sync_with_dbs",
+  "info": {
+    "singularName": "testing-config-sync-with-db",
+    "pluralName": "testing-config-sync-with-dbs",
+    "displayName": "Testing-Config-Sync-WithDB"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "DummyTitleWithDB": {
+      "type": "string"
+    }
+  }
+}

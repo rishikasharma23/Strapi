@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_blocks_article_descriptions",
+  "info": {
+    "displayName": "ArticleDescription"
+  },
+  "options": {},
+  "attributes": {
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

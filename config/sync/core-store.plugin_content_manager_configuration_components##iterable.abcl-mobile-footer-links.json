@@ -1,0 +1,98 @@
+{
+  "key": "plugin_content_manager_configuration_components::iterable.abcl-mobile-footer-links",
+  "value": {
+    "uid": "iterable.abcl-mobile-footer-links",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "ABCLFooterLinkTitle",
+      "defaultSortBy": "ABCLFooterLinkTitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ABCLFooterLinkTitle": {
+        "edit": {
+          "label": "ABCLFooterLinkTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ABCLFooterLinkTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ABCLFooterLinkList": {
+        "edit": {
+          "label": "ABCLFooterLinkList",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ABCLFooterLinkList",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ABCLFooterLinkURL": {
+        "edit": {
+          "label": "ABCLFooterLinkURL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ABCLFooterLinkURL",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "ABCLFooterLinkTitle",
+        "ABCLFooterLinkURL"
+      ],
+      "edit": [
+        [
+          {
+            "name": "ABCLFooterLinkTitle",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "ABCLFooterLinkList",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "ABCLFooterLinkURL",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

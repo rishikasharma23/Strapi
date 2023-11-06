@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_single_title_descriptions",
+  "info": {
+    "displayName": "TitleDescription",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TitleDescriptionDetail": {
+      "type": "richtext"
+    },
+    "BlogTitleFeature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "iterable.article-feature"
+    }
+  }
+}

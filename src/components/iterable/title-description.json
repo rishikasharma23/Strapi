@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_iterable_title_descriptions",
+  "info": {
+    "displayName": "TitleDescription",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}

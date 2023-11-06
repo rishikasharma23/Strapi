@@ -1,0 +1,361 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::revamp-article-page.revamp-article-page",
+  "value": {
+    "uid": "api::revamp-article-page.revamp-article-page",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "ArticleH1Tag",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ArticlePageSEODetails": {
+        "edit": {
+          "label": "ArticlePageSEODetails",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ArticlePageSEODetails",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "BlogTitleReadTime": {
+        "edit": {
+          "label": "BlogTitleReadTime",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "BlogTitleReadTime",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "BannerImage": {
+        "edit": {
+          "label": "BannerImage",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "BannerImage",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ArticleMobImage": {
+        "edit": {
+          "label": "ArticleMobImage",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ArticleMobImage",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ArticleShare": {
+        "edit": {
+          "label": "ArticleShare",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ArticleShare",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "blocks": {
+        "edit": {
+          "label": "blocks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "blocks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "authors": {
+        "edit": {
+          "label": "authors",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "authors",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ArticleH1Tag": {
+        "edit": {
+          "label": "ArticleH1Tag",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ArticleH1Tag",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "bottom_block": {
+        "edit": {
+          "label": "bottom_block",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "id"
+        },
+        "list": {
+          "label": "bottom_block",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "category": {
+        "edit": {
+          "label": "category",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "id"
+        },
+        "list": {
+          "label": "category",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "UniqueHeading": {
+        "edit": {
+          "label": "UniqueHeading",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "UniqueHeading",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "CalendarIcon": {
+        "edit": {
+          "label": "CalendarIcon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "CalendarIcon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ClockIcon": {
+        "edit": {
+          "label": "ClockIcon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ClockIcon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "FooterLogo": {
+        "edit": {
+          "label": "FooterLogo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "FooterLogo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "ArticleH1Tag"
+      ],
+      "edit": [
+        [
+          {
+            "name": "ArticleH1Tag",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "ArticlePageSEODetails",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "BlogTitleReadTime",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "BannerImage",
+            "size": 6
+          },
+          {
+            "name": "ArticleMobImage",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "ArticleShare",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "blocks",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "authors",
+            "size": 6
+          },
+          {
+            "name": "bottom_block",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "category",
+            "size": 6
+          },
+          {
+            "name": "UniqueHeading",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "slug",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "CalendarIcon",
+            "size": 6
+          },
+          {
+            "name": "ClockIcon",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "FooterLogo",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

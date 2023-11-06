@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_single_social_media_icons",
+  "info": {
+    "displayName": "SocialMediaIcons",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "SocialMediaIcons": {
+      "type": "enumeration",
+      "enum": [
+        "Facebook",
+        "LinkedIn",
+        "Twitter",
+        "Instagram",
+        "Youtube"
+      ]
+    }
+  }
+}

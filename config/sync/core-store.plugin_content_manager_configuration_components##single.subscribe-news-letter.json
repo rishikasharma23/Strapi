@@ -1,0 +1,116 @@
+{
+  "key": "plugin_content_manager_configuration_components::single.subscribe-news-letter",
+  "value": {
+    "uid": "single.subscribe-news-letter",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "InputFieldTxt",
+      "defaultSortBy": "InputFieldTxt",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "HeadingDescription": {
+        "edit": {
+          "label": "HeadingDescription",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "HeadingDescription",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "InputFieldTxt": {
+        "edit": {
+          "label": "InputFieldTxt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "InputFieldTxt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "BtnFieldTxt": {
+        "edit": {
+          "label": "BtnFieldTxt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "BtnFieldTxt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ThankYouDescriptionTxt": {
+        "edit": {
+          "label": "ThankYouDescriptionTxt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ThankYouDescriptionTxt",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "InputFieldTxt",
+        "BtnFieldTxt"
+      ],
+      "edit": [
+        [
+          {
+            "name": "HeadingDescription",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "InputFieldTxt",
+            "size": 6
+          },
+          {
+            "name": "BtnFieldTxt",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "ThankYouDescriptionTxt",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

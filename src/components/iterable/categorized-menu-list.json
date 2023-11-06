@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_iterable_categorized_menu_lists",
+  "info": {
+    "displayName": "CategorizedMenuList",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "NavMenuList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "iterable.nav-menu-list-item"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_iterable_footerblocks",
+  "info": {
+    "displayName": "Footerblock"
+  },
+  "options": {},
+  "attributes": {
+    "FooterListItem": {
+      "type": "richtext"
+    },
+    "FooterTitle": {
+      "type": "string"
+    }
+  }
+}

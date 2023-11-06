@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_header_nav_lists",
+  "info": {
+    "displayName": "HeaderNavList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HeaderNavListTitle": {
+      "type": "string"
+    },
+    "HeaderNavListURL": {
+      "type": "string"
+    }
+  }
+}

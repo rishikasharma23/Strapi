@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_iterable_action_buttons",
+  "info": {
+    "displayName": "ActionButton",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ActionURL": {
+      "type": "richtext"
+    },
+    "ImageURL": {
+      "type": "richtext"
+    },
+    "ButtonTxt": {
+      "type": "richtext"
+    }
+  }
+}

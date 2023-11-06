@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_single_subscribe_news_letters",
+  "info": {
+    "displayName": "SubscribeNewsLetter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HeadingDescription": {
+      "type": "richtext"
+    },
+    "InputFieldTxt": {
+      "type": "string"
+    },
+    "BtnFieldTxt": {
+      "type": "string"
+    },
+    "ThankYouDescriptionTxt": {
+      "type": "richtext"
+    }
+  }
+}

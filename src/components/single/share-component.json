@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_single_share_components",
+  "info": {
+    "displayName": "ShareComponent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ShareTitle": {
+      "type": "richtext"
+    },
+    "ShareDropdownTxt": {
+      "type": "richtext"
+    },
+    "IconsList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single.icons-list"
+    }
+  }
+}

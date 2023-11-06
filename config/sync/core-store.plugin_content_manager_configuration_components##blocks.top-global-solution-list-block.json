@@ -1,0 +1,78 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.top-global-solution-list-block",
+  "value": {
+    "uid": "blocks.top-global-solution-list-block",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "TopGlobalSolutionTitle",
+      "defaultSortBy": "TopGlobalSolutionTitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "TopGlobalListInfo": {
+        "edit": {
+          "label": "TopGlobalListInfo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "TopGlobalListInfo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "TopGlobalSolutionTitle": {
+        "edit": {
+          "label": "TopGlobalSolutionTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "TopGlobalSolutionTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "TopGlobalListInfo",
+        "TopGlobalSolutionTitle"
+      ],
+      "edit": [
+        [
+          {
+            "name": "TopGlobalListInfo",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "TopGlobalSolutionTitle",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

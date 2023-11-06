@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_single_absli_header_menus",
+  "info": {
+    "displayName": "ABSLIHeaderMenu",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ABSLITitle": {
+      "type": "string"
+    }
+  }
+}

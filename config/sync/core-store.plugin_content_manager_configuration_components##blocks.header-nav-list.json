@@ -1,0 +1,76 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.header-nav-list",
+  "value": {
+    "uid": "blocks.header-nav-list",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "HeaderNavListTitle",
+      "defaultSortBy": "HeaderNavListTitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "HeaderNavListTitle": {
+        "edit": {
+          "label": "HeaderNavListTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "HeaderNavListTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "HeaderNavListURL": {
+        "edit": {
+          "label": "HeaderNavListURL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "HeaderNavListURL",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "HeaderNavListTitle",
+        "HeaderNavListURL"
+      ],
+      "edit": [
+        [
+          {
+            "name": "HeaderNavListTitle",
+            "size": 6
+          },
+          {
+            "name": "HeaderNavListURL",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

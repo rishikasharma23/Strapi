@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_single_abcl_header_menus",
+  "info": {
+    "displayName": "ABCLHeaderMenu",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "NavMenuList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "iterable.nav-menu-list-item"
+    }
+  }
+}

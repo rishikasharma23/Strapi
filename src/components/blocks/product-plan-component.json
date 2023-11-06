@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_blocks_product_plan_components",
+  "info": {
+    "displayName": "ProductPlanComponent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ProductHeading": {
+      "type": "richtext"
+    },
+    "ArticleFeatureWithImg": {
+      "type": "component",
+      "repeatable": true,
+      "component": "iterable.article-feature"
+    },
+    "LifeCoverTxt": {
+      "type": "richtext"
+    },
+    "PremiumTxt": {
+      "type": "richtext"
+    },
+    "AnchorTagURL": {
+      "type": "richtext"
+    },
+    "ActionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "iterable.action-button"
+    }
+  }
+}

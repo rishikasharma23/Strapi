@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_authors",
+  "info": {
+    "singularName": "about-author",
+    "pluralName": "about-authors",
+    "displayName": "Authors",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::revamp-article-page.revamp-article-page",
+      "mappedBy": "authors"
+    },
+    "AuthorAvatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

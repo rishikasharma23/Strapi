@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testing_without_dbs",
+  "info": {
+    "singularName": "testing-without-db",
+    "pluralName": "testing-without-dbs",
+    "displayName": "Testing-Without-DB"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Testing": {
+      "type": "component",
+      "repeatable": true,
+      "component": "iterable.title-description"
+    }
+  }
+}

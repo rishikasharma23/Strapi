@@ -1,0 +1,57 @@
+{
+  "key": "plugin_content_manager_configuration_components::single.article-blog-title-comp",
+  "value": {
+    "uid": "single.article-blog-title-comp",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "ArticleH1Tag",
+      "defaultSortBy": "ArticleH1Tag",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ArticleH1Tag": {
+        "edit": {
+          "label": "ArticleH1Tag",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ArticleH1Tag",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "ArticleH1Tag"
+      ],
+      "edit": [
+        [
+          {
+            "name": "ArticleH1Tag",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

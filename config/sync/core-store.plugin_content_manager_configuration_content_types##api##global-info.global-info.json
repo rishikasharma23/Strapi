@@ -1,0 +1,180 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::global-info.global-info",
+  "value": {
+    "uid": "api::global-info.global-info",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "ContactNo",
+      "defaultSortBy": "ContactNo",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ContactNo": {
+        "edit": {
+          "label": "ContactNo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ContactNo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "LoginURL": {
+        "edit": {
+          "label": "LoginURL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "LoginURL",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "PayPremiumTitle": {
+        "edit": {
+          "label": "PayPremiumTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "PayPremiumTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "PayPremiumURL": {
+        "edit": {
+          "label": "PayPremiumURL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "PayPremiumURL",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "MMPTitle": {
+        "edit": {
+          "label": "MMPTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "MMPTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "MMPURL": {
+        "edit": {
+          "label": "MMPURL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "MMPURL",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "ContactNo",
+        "createdAt",
+        "updatedAt"
+      ],
+      "edit": [
+        [
+          {
+            "name": "ContactNo",
+            "size": 6
+          },
+          {
+            "name": "LoginURL",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "PayPremiumTitle",
+            "size": 6
+          },
+          {
+            "name": "PayPremiumURL",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "MMPTitle",
+            "size": 6
+          },
+          {
+            "name": "MMPURL",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

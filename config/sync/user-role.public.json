@@ -1,0 +1,97 @@
+{
+  "name": "Public",
+  "description": "Default role given to unauthenticated user.",
+  "type": "public",
+  "permissions": [
+    {
+      "action": "api::abcl-header-nav-list.abcl-header-nav-list.find"
+    },
+    {
+      "action": "api::abcl-top-global-item.abcl-top-global-item.find"
+    },
+    {
+      "action": "api::abcl-top-global-solution-list.abcl-top-global-solution-list.find"
+    },
+    {
+      "action": "api::about-author.about-author.find"
+    },
+    {
+      "action": "api::absli-header-category.absli-header-category.find"
+    },
+    {
+      "action": "api::absli-header-category.absli-header-category.findOne"
+    },
+    {
+      "action": "api::absli-header-product.absli-header-product.find"
+    },
+    {
+      "action": "api::bottom-block.bottom-block.find"
+    },
+    {
+      "action": "api::category.category.find"
+    },
+    {
+      "action": "api::footer-nav-list-item.footer-nav-list-item.find"
+    },
+    {
+      "action": "api::footer-nav-list-item.footer-nav-list-item.findOne"
+    },
+    {
+      "action": "api::footer-nav-section.footer-nav-section.find"
+    },
+    {
+      "action": "api::footer-nav-section.footer-nav-section.findOne"
+    },
+    {
+      "action": "api::footer.footer.find"
+    },
+    {
+      "action": "api::form.form.find"
+    },
+    {
+      "action": "api::global-info.global-info.find"
+    },
+    {
+      "action": "api::header.header.find"
+    },
+    {
+      "action": "api::lead-api-setting-detail.lead-api-setting-detail.find"
+    },
+    {
+      "action": "api::revamp-article-page.revamp-article-page.find"
+    },
+    {
+      "action": "api::revamp-article-page.revamp-article-page.findOne"
+    },
+    {
+      "action": "api::revamp-article-page.revamp-article-page.update"
+    },
+    {
+      "action": "api::sidebar.sidebar.find"
+    },
+    {
+      "action": "api::subscribe-newsletter.subscribe-newsletter.find"
+    },
+    {
+      "action": "plugin::users-permissions.auth.callback"
+    },
+    {
+      "action": "plugin::users-permissions.auth.connect"
+    },
+    {
+      "action": "plugin::users-permissions.auth.emailConfirmation"
+    },
+    {
+      "action": "plugin::users-permissions.auth.forgotPassword"
+    },
+    {
+      "action": "plugin::users-permissions.auth.register"
+    },
+    {
+      "action": "plugin::users-permissions.auth.resetPassword"
+    },
+    {
+      "action": "plugin::users-permissions.auth.sendEmailConfirmation"
+    }
+  ]
+}

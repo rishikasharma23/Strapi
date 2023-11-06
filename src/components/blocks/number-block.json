@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_number_blocks",
+  "info": {
+    "displayName": "NumberBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Number": {
+      "type": "richtext"
+    },
+    "NumberErrorTxt": {
+      "type": "richtext"
+    }
+  }
+}

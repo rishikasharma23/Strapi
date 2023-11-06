@@ -1,0 +1,116 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.footer-nav-list",
+  "value": {
+    "uid": "blocks.footer-nav-list",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "FooterNavListColNo",
+      "defaultSortBy": "FooterNavListColNo",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "FooterNavListColNo": {
+        "edit": {
+          "label": "FooterNavListColNo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "FooterNavListColNo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "FooterNavListTitle": {
+        "edit": {
+          "label": "FooterNavListTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "FooterNavListTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "FooterNavTitleURL": {
+        "edit": {
+          "label": "FooterNavTitleURL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "FooterNavTitleURL",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "footer_nav_list_category": {
+        "edit": {
+          "label": "footer_nav_list_category",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "NavCategoryTitle"
+        },
+        "list": {
+          "label": "footer_nav_list_category",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "FooterNavListColNo",
+        "FooterNavListTitle",
+        "FooterNavTitleURL"
+      ],
+      "edit": [
+        [
+          {
+            "name": "FooterNavListColNo",
+            "size": 6
+          },
+          {
+            "name": "FooterNavListTitle",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "FooterNavTitleURL",
+            "size": 6
+          },
+          {
+            "name": "footer_nav_list_category",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

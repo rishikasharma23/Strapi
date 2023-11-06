@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_blocks_rating_components",
+  "info": {
+    "displayName": "RatingComponent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "RatingCount": {
+      "type": "decimal"
+    },
+    "StarImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ThankYouImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ShareTitle": {
+      "type": "richtext"
+    },
+    "ShareDropdownTxt": {
+      "type": "richtext"
+    },
+    "IconsList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single.icons-list"
+    }
+  }
+}

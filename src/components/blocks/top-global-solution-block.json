@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_top_global_solution_blocks",
+  "info": {
+    "displayName": "TopGlobalSolutionBlock"
+  },
+  "options": {},
+  "attributes": {
+    "TopGlobalSolutionTitle": {
+      "type": "string"
+    },
+    "TopGlobalSolutionURL": {
+      "type": "string"
+    }
+  }
+}

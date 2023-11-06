@@ -1,0 +1,77 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.article-feature",
+  "value": {
+    "uid": "blocks.article-feature",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "HeadingDescription": {
+        "edit": {
+          "label": "HeadingDescription",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "HeadingDescription",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ArticleFeatureWithImgDetails": {
+        "edit": {
+          "label": "ArticleFeatureWithImgDetails",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ArticleFeatureWithImgDetails",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "ArticleFeatureWithImgDetails"
+      ],
+      "edit": [
+        [
+          {
+            "name": "HeadingDescription",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "ArticleFeatureWithImgDetails",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_single_share_listing_components",
+  "info": {
+    "displayName": "ShareListingComponent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "ShareDropdownTxt": {
+      "type": "string"
+    },
+    "IconsListFacebook": {
+      "type": "component",
+      "repeatable": false,
+      "component": "single.icons-list"
+    },
+    "IconsListLinkedIn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "single.icons-list"
+    },
+    "IconsListTwitter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "single.icons-list"
+    }
+  }
+}

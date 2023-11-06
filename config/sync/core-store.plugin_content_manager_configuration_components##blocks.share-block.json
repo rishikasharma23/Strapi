@@ -1,0 +1,117 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.share-block",
+  "value": {
+    "uid": "blocks.share-block",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "ShareDropdownTxt",
+      "defaultSortBy": "ShareDropdownTxt",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ShareDropdownTxt": {
+        "edit": {
+          "label": "ShareDropdownTxt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ShareDropdownTxt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "IconsList": {
+        "edit": {
+          "label": "IconsList",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "IconsList",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ShareIconsDetails": {
+        "edit": {
+          "label": "ShareIconsDetails",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ShareIconsDetails",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "ShareDropdownTxt",
+        "Title",
+        "IconsList"
+      ],
+      "edit": [
+        [
+          {
+            "name": "ShareDropdownTxt",
+            "size": 6
+          },
+          {
+            "name": "Title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "IconsList",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "ShareIconsDetails",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

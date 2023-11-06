@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_iterable_article_feature_with_icons",
+  "info": {
+    "displayName": "ArticleFeatureWithIcons",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "IconsList": {
+      "type": "enumeration",
+      "enum": [
+        "icon-arrow",
+        "icon-phone",
+        "icon-home",
+        "icon-login",
+        "icon-seach",
+        "icon-cancel",
+        "icon-btn",
+        "icon-left-arrow",
+        "icon-facebook",
+        "icon-linkedIn-o",
+        "icon-twitter",
+        "icon-decrement",
+        "icon-tick",
+        "icon-instagram",
+        "icon-linkedIn",
+        "icon-youtube"
+      ]
+    }
+  }
+}

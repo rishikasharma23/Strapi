@@ -1,0 +1,98 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.header-nav-category-list",
+  "value": {
+    "uid": "blocks.header-nav-category-list",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "HeaderNavCategoryListTitle",
+      "defaultSortBy": "HeaderNavCategoryListTitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "HeaderNavCategoryListTitle": {
+        "edit": {
+          "label": "HeaderNavCategoryListTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "HeaderNavCategoryListTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "HeaderNavCategoryListURL": {
+        "edit": {
+          "label": "HeaderNavCategoryListURL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "HeaderNavCategoryListURL",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "absli_header_product": {
+        "edit": {
+          "label": "absli_header_product",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "ABSLIHeaderProductTitle"
+        },
+        "list": {
+          "label": "absli_header_product",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "HeaderNavCategoryListTitle",
+        "HeaderNavCategoryListURL",
+        "absli_header_product"
+      ],
+      "edit": [
+        [
+          {
+            "name": "HeaderNavCategoryListTitle",
+            "size": 6
+          },
+          {
+            "name": "HeaderNavCategoryListURL",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "absli_header_product",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

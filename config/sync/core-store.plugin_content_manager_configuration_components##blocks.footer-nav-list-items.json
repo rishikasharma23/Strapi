@@ -1,0 +1,76 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.footer-nav-list-items",
+  "value": {
+    "uid": "blocks.footer-nav-list-items",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "FooterNavListTitle",
+      "defaultSortBy": "FooterNavListTitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "FooterNavListTitle": {
+        "edit": {
+          "label": "FooterNavListTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "FooterNavListTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "FooterNavListURL": {
+        "edit": {
+          "label": "FooterNavListURL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "FooterNavListURL",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "FooterNavListTitle",
+        "FooterNavListURL"
+      ],
+      "edit": [
+        [
+          {
+            "name": "FooterNavListTitle",
+            "size": 6
+          },
+          {
+            "name": "FooterNavListURL",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

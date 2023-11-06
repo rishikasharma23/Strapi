@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_top_global_solution_list_blocks",
+  "info": {
+    "displayName": "TopGlobalSolutionListBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TopGlobalListInfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "iterable.title-description"
+    },
+    "TopGlobalSolutionTitle": {
+      "type": "string"
+    }
+  }
+}

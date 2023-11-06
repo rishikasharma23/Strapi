@@ -1,0 +1,97 @@
+{
+  "key": "plugin_content_manager_configuration_components::iterable.top-global-list-item",
+  "value": {
+    "uid": "iterable.top-global-list-item",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "TopMenuListItem",
+      "defaultSortBy": "TopMenuListItem",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "TopMenuListItem": {
+        "edit": {
+          "label": "TopMenuListItem",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "TopMenuListItem",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "TopMenuListURL": {
+        "edit": {
+          "label": "TopMenuListURL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "TopMenuListURL",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "TopMenuListID": {
+        "edit": {
+          "label": "TopMenuListID",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "TopMenuListID",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "TopMenuListItem",
+        "TopMenuListURL",
+        "TopMenuListID"
+      ],
+      "edit": [
+        [
+          {
+            "name": "TopMenuListItem",
+            "size": 6
+          },
+          {
+            "name": "TopMenuListURL",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "TopMenuListID",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

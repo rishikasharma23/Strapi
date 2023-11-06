@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_single_about_authors",
+  "info": {
+    "displayName": "AboutAuthor",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "AboutAuthorDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "iterable.article-feature"
+    }
+  }
+}

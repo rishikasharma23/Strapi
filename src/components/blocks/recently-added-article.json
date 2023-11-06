@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_blocks_recently_added_articles",
+  "info": {
+    "displayName": "RecentlyAddedArticle"
+  },
+  "options": {},
+  "attributes": {
+    "RecentlyAddedArticleTitle": {
+      "type": "richtext"
+    }
+  }
+}

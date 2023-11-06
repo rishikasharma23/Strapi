@@ -1,0 +1,147 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::lead-api-setting-detail.lead-api-setting-detail",
+  "value": {
+    "uid": "api::lead-api-setting-detail.lead-api-setting-detail",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Source": {
+        "edit": {
+          "label": "Source",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Source",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ProductName": {
+        "edit": {
+          "label": "ProductName",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ProductName",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "SubSource": {
+        "edit": {
+          "label": "SubSource",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "SubSource",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "forms": {
+        "edit": {
+          "label": "forms",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "FormsTitle"
+        },
+        "list": {
+          "label": "forms",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "forms"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Source",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "forms",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "ProductName",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "SubSource",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

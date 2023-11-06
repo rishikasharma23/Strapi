@@ -1,0 +1,76 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.header-nav-product-list",
+  "value": {
+    "uid": "blocks.header-nav-product-list",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "HeaderNavProductListTitle",
+      "defaultSortBy": "HeaderNavProductListTitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "HeaderNavProductListTitle": {
+        "edit": {
+          "label": "HeaderNavProductListTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "HeaderNavProductListTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "HeaderNavProductListURL": {
+        "edit": {
+          "label": "HeaderNavProductListURL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "HeaderNavProductListURL",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "HeaderNavProductListTitle",
+        "HeaderNavProductListURL"
+      ],
+      "edit": [
+        [
+          {
+            "name": "HeaderNavProductListTitle",
+            "size": 6
+          },
+          {
+            "name": "HeaderNavProductListURL",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

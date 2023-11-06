@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_popular_searches",
+  "info": {
+    "displayName": "PopularSearches"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SearchList": {
+      "type": "richtext"
+    }
+  }
+}

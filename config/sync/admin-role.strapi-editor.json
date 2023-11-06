@@ -1,0 +1,493 @@
+{
+  "name": "Editor",
+  "code": "strapi-editor",
+  "description": "Editors can manage and publish contents including those of other users.",
+  "permissions": [
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::about-author.about-author",
+      "properties": {
+        "fields": [
+          "Title",
+          "Description",
+          "articles",
+          "AuthorAvatar"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::about-author.about-author",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::about-author.about-author",
+      "properties": {
+        "fields": [
+          "Title",
+          "Description",
+          "articles",
+          "AuthorAvatar"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::about-author.about-author",
+      "properties": {
+        "fields": [
+          "Title",
+          "Description",
+          "articles",
+          "AuthorAvatar"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::bottom-block.bottom-block",
+      "properties": {
+        "fields": [
+          "BottomBlockDisclaimer.Title",
+          "BottomBlockDisclaimer.Description",
+          "BottomBlockDisclaimer.IconsList.IconsListDetails",
+          "BottomBlockDisclaimer.IconsList.IconTitle",
+          "DisqusCommentSection",
+          "articles",
+          "BottomBlockTitle"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::bottom-block.bottom-block",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::bottom-block.bottom-block",
+      "properties": {
+        "fields": [
+          "BottomBlockDisclaimer.Title",
+          "BottomBlockDisclaimer.Description",
+          "BottomBlockDisclaimer.IconsList.IconsListDetails",
+          "BottomBlockDisclaimer.IconsList.IconTitle",
+          "DisqusCommentSection",
+          "articles",
+          "BottomBlockTitle"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::bottom-block.bottom-block",
+      "properties": {
+        "fields": [
+          "BottomBlockDisclaimer.Title",
+          "BottomBlockDisclaimer.Description",
+          "BottomBlockDisclaimer.IconsList.IconsListDetails",
+          "BottomBlockDisclaimer.IconsList.IconTitle",
+          "DisqusCommentSection",
+          "articles",
+          "BottomBlockTitle"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::category.category",
+      "properties": {
+        "fields": [
+          "slug",
+          "articles",
+          "sidebar"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::category.category",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::category.category",
+      "properties": {
+        "fields": [
+          "slug",
+          "articles",
+          "sidebar"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::category.category",
+      "properties": {
+        "fields": [
+          "slug",
+          "articles",
+          "sidebar"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::form.form",
+      "properties": {
+        "fields": [
+          "FormsTitle",
+          "sidebars",
+          "TNCText",
+          "BtnText",
+          "ThanksTxt",
+          "InputField",
+          "Title",
+          "ErrorTxt",
+          "lead_api_setting_detail",
+          "PhoneIcon"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::form.form",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::form.form",
+      "properties": {
+        "fields": [
+          "FormsTitle",
+          "sidebars",
+          "TNCText",
+          "BtnText",
+          "ThanksTxt",
+          "InputField",
+          "Title",
+          "ErrorTxt",
+          "lead_api_setting_detail",
+          "PhoneIcon"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::form.form",
+      "properties": {
+        "fields": [
+          "FormsTitle",
+          "sidebars",
+          "TNCText",
+          "BtnText",
+          "ThanksTxt",
+          "InputField",
+          "Title",
+          "ErrorTxt",
+          "lead_api_setting_detail",
+          "PhoneIcon"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::lead-api-setting-detail.lead-api-setting-detail",
+      "properties": {
+        "fields": [
+          "Source",
+          "ProductName",
+          "SubSource",
+          "forms"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::lead-api-setting-detail.lead-api-setting-detail",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::lead-api-setting-detail.lead-api-setting-detail",
+      "properties": {
+        "fields": [
+          "Source",
+          "ProductName",
+          "SubSource",
+          "forms"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::lead-api-setting-detail.lead-api-setting-detail",
+      "properties": {
+        "fields": [
+          "Source",
+          "ProductName",
+          "SubSource",
+          "forms"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::revamp-article-page.revamp-article-page",
+      "properties": {
+        "fields": [
+          "ArticlePageSEODetails.SEOTitle",
+          "ArticlePageSEODetails.SEODescription",
+          "ArticlePageSEODetails.OrganisationalSiteName",
+          "ArticlePageSEODetails.OrganisationType",
+          "ArticlePageSEODetails.FacebookDomainVerification",
+          "ArticlePageSEODetails.GoogleSiteVerification",
+          "ArticlePageSEODetails.FormatDetection",
+          "ArticlePageSEODetails.CanonicalURL",
+          "BlogTitleReadTime",
+          "BannerImage",
+          "ArticleMobImage",
+          "ArticleShare.ShareTitle",
+          "ArticleShare.ShareDropdownTxt",
+          "ArticleShare.IconsList.IconsListDetails",
+          "ArticleShare.IconsList.IconTitle",
+          "blocks",
+          "authors",
+          "ArticleH1Tag",
+          "bottom_block",
+          "category",
+          "UniqueHeading",
+          "slug",
+          "CalendarIcon",
+          "ClockIcon"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::revamp-article-page.revamp-article-page",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::revamp-article-page.revamp-article-page",
+      "properties": {
+        "fields": [
+          "ArticlePageSEODetails.SEOTitle",
+          "ArticlePageSEODetails.SEODescription",
+          "ArticlePageSEODetails.OrganisationalSiteName",
+          "ArticlePageSEODetails.OrganisationType",
+          "ArticlePageSEODetails.FacebookDomainVerification",
+          "ArticlePageSEODetails.GoogleSiteVerification",
+          "ArticlePageSEODetails.FormatDetection",
+          "ArticlePageSEODetails.CanonicalURL",
+          "BlogTitleReadTime",
+          "BannerImage",
+          "ArticleMobImage",
+          "ArticleShare.ShareTitle",
+          "ArticleShare.ShareDropdownTxt",
+          "ArticleShare.IconsList.IconsListDetails",
+          "ArticleShare.IconsList.IconTitle",
+          "blocks",
+          "authors",
+          "ArticleH1Tag",
+          "bottom_block",
+          "category",
+          "UniqueHeading",
+          "slug",
+          "CalendarIcon",
+          "ClockIcon"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::revamp-article-page.revamp-article-page",
+      "properties": {
+        "fields": [
+          "ArticlePageSEODetails.SEOTitle",
+          "ArticlePageSEODetails.SEODescription",
+          "ArticlePageSEODetails.OrganisationalSiteName",
+          "ArticlePageSEODetails.OrganisationType",
+          "ArticlePageSEODetails.FacebookDomainVerification",
+          "ArticlePageSEODetails.GoogleSiteVerification",
+          "ArticlePageSEODetails.FormatDetection",
+          "ArticlePageSEODetails.CanonicalURL",
+          "BlogTitleReadTime",
+          "BannerImage",
+          "ArticleMobImage",
+          "ArticleShare.ShareTitle",
+          "ArticleShare.ShareDropdownTxt",
+          "ArticleShare.IconsList.IconsListDetails",
+          "ArticleShare.IconsList.IconTitle",
+          "blocks",
+          "authors",
+          "ArticleH1Tag",
+          "bottom_block",
+          "category",
+          "UniqueHeading",
+          "slug",
+          "CalendarIcon",
+          "ClockIcon"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::sidebar.sidebar",
+      "properties": {
+        "fields": [
+          "form",
+          "rightBlocks",
+          "categories",
+          "sidebarTitle"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::sidebar.sidebar",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::sidebar.sidebar",
+      "properties": {
+        "fields": [
+          "form",
+          "rightBlocks",
+          "categories",
+          "sidebarTitle"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::sidebar.sidebar",
+      "properties": {
+        "fields": [
+          "form",
+          "rightBlocks",
+          "categories",
+          "sidebarTitle"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::subscribe-newsletter.subscribe-newsletter",
+      "properties": {
+        "fields": [
+          "HeadingDescription",
+          "ThankYouDescriptionTxt",
+          "InputFieldTxt",
+          "BtnFieldTxt",
+          "ErrorFieldTxt",
+          "SubscribeNewsletterBtn"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::subscribe-newsletter.subscribe-newsletter",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::subscribe-newsletter.subscribe-newsletter",
+      "properties": {
+        "fields": [
+          "HeadingDescription",
+          "ThankYouDescriptionTxt",
+          "InputFieldTxt",
+          "BtnFieldTxt",
+          "ErrorFieldTxt",
+          "SubscribeNewsletterBtn"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::subscribe-newsletter.subscribe-newsletter",
+      "properties": {
+        "fields": [
+          "HeadingDescription",
+          "ThankYouDescriptionTxt",
+          "InputFieldTxt",
+          "BtnFieldTxt",
+          "ErrorFieldTxt",
+          "SubscribeNewsletterBtn"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.copy-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.download",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.configure-view",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    }
+  ]
+}

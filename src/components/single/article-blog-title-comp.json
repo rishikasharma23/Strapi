@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_single_article_blog_title_comps",
+  "info": {
+    "displayName": "ArticleBlogTitleComp"
+  },
+  "options": {},
+  "attributes": {
+    "ArticleH1Tag": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
